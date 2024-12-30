@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategic Consulting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="custom-cursor">★</div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Strategic Excellence<br>in Business Consulting</h1>
+            <p>Transforming visionary companies into market leaders through strategic innovation and execution.</p>
+            <a href="#contact" class="btn">Schedule a Consultation →</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="main-content">
+        <div class="container">
+            <div class="content-grid">
+                <div class="layer-card">
+                    <h2>Elevate Your Business</h2>
+                    <p>We partner with forward-thinking organizations to develop and implement transformative strategies that drive exceptional results.</p>
+                    <a href="#services" class="text-link">Discover Our Approach →</a>
+                </div>
+                <div class="content-card"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2>Our Expertise</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Strategic Planning</h3>
+                    <p>Comprehensive business strategy development and execution planning.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Market Analysis</h3>
+                    <p>In-depth market research and competitive positioning strategies.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Growth Consulting</h3>
+                    <p>Sustainable growth strategies and implementation support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const cursor = document.getElementById('custom-cursor');
+        
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        });
+    </script>
+</body>
+</html>
